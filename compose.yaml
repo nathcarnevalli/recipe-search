@@ -30,6 +30,10 @@ services:
         required: false
     volumes:
       - ./data:/app/data
+      # Guardar en el host el registro de tokens (llm/usage_log.jsonl) y las salidas de los lotes
+      - ./llm:/app/llm
+      # Informes de evaluación (search/evaluacion.md, search/comparacion.md)
+      - ./search:/app/search
     depends_on:
       elasticsearch:
         condition: service_healthy

@@ -7,18 +7,28 @@ client = Elasticsearch(os.getenv("ELASTICSEARCH_URL", "http://localhost:9200"))
 INDEX_NAME = "receitas_galegas"
 
 
-def search_recipes(query, size=10, source=None, categoria=None, **kwargs):
-    # Se quiser ignorar ou usar o parâmetro categoria sem dar erro:
-    filters = [{"term": {"source": source}}] if source else []
-    
-    # Se a categoria for passada e quiser filtrar por ela (ajuste o campo se necessário no seu index):
-    if categoria:
-        filters.append({"term": {"category": categoria}})
+def search_recipes(query, size=10, **filtros):
+    return search_page(query, size=size, **filtros)[0]
 
-    # O resto da função mantém-se igual...
+
+# Una página de resultados y el total de coincidencias (para paginar en la web)
+def search_page(query, size=10, offset=0, source=None, categoria=None, etiquetas=None, dificultade=None):
+    filters = [{"term": {"source": source}}] if source else []
+
+    # Calculada por reglas en la indexación (indexer/dificultade.py)
+    if dificultade:
+        filters.append({"term": {"dificultade": dificultade}})
+
+    # Campos generados por el LLM (llm/enrich.py)
+    if categoria:
+        filters.append({"term": {"categoria": categoria}})
+    for etiqueta in etiquetas or []:
+        filters.append({"term": {"etiquetas": etiqueta}})
+
     response = client.search(
         index=INDEX_NAME,
         size=size,
+        from_=offset,
         query={
             "bool": {
                 "filter": filters,
@@ -44,7 +54,7 @@ def search_recipes(query, size=10, source=None, categoria=None, **kwargs):
                         }
                     },
 
-                    # 3. Búsqueda general en varios campos
+                    # 3. Búsqueda general en varios campos, con raíces en gallego
                     {
                         "multi_match": {
                             "query": query,
@@ -52,6 +62,21 @@ def search_recipes(query, size=10, source=None, categoria=None, **kwargs):
                                 "title^3",
                                 "ingredients^2",
                                 "preparation"
+                            ],
+                            "type": "best_fields"
+                        }
+                    },
+
+                    # 3b. Lo mismo con tolerancia a erratas, sobre palabras enteras
+                    # (subcampos .std): la búsqueda difusa sobre raíces cortas
+                    # confunde términos distintos
+                    {
+                        "multi_match": {
+                            "query": query,
+                            "fields": [
+                                "title.std^3",
+                                "ingredients.std^2",
+                                "preparation.std"
                             ],
                             "type": "best_fields",
                             "fuzziness": "AUTO"
@@ -73,7 +98,7 @@ def search_recipes(query, size=10, source=None, categoria=None, **kwargs):
         }
     )
 
-    return response["hits"]["hits"]
+    return response["hits"]["hits"], response["hits"]["total"]["value"]
 
 
 def show_results(results):

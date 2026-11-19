@@ -1,0 +1,45 @@
+{
+  "_nota": "Juicios binarios de relevancia. Candidatos: los 10 primeros de cada estrategia más una búsqueda en los títulos de todo el corpus (y en ingredientes para «castañas» y «augardente»). Cada consulta tiene una necesidad de información explícita; una receta es relevante si la satisface.",
+  "consultas": {
+    "tarta de santiago": {
+      "necesidad": "La receta de la tarta de Santiago.",
+      "relevantes": ["629367bdf2b1bcbc"]
+    },
+    "filloas": {
+      "necesidad": "Recetas de filloas (no crepes de otras cocinas).",
+      "relevantes": ["0d0cf615605423b4"]
+    },
+    "empanada": {
+      "necesidad": "Recetas de empanada o empanadillas.",
+      "relevantes": ["61dfcfd5a488bccd", "21556ae2ade25f94", "0ce7a94f5273a9bd", "9bf3d2e75e1d542e"]
+    },
+    "castañas": {
+      "necesidad": "Recetas en las que la castaña es ingrediente principal.",
+      "relevantes": ["263fe39a95b80b27", "246f1202dcc2eadb", "85559199ce8bdce6", "e44a35fcd2a0b657", "4b0f473bac8c052c"]
+    },
+    "caldo galego": {
+      "necesidad": "Recetas de caldo gallego (o pote gallego, su variante).",
+      "relevantes": ["098188044f889f5f", "e3c2b6393f652447", "d3f69b6900b0a9b8", "2bab13d487808c19"]
+    },
+    "lacón con grelos": {
+      "necesidad": "Platos de lacón con grelos.",
+      "relevantes": ["7a9970a517eee0eb"]
+    },
+    "bica": {
+      "necesidad": "Recetas de bica.",
+      "relevantes": ["f38015b35d711fee", "8e170681de399e6d"]
+    },
+    "cocido": {
+      "necesidad": "Recetas de cocido (no platos hechos con sus sobras).",
+      "relevantes": ["b5486d2a75de37ef", "4b88f8c84938f420"]
+    },
+    "augardente": {
+      "necesidad": "Recetas que llevan aguardiente entre los ingredientes.",
+      "relevantes": ["f9bc82f9dc0139fe", "f576ecec36188976", "0e78bddf9ac9777a", "c71904643303e88a"]
+    },
+    "torta de milo": {
+      "necesidad": "La torta de millo (consulta con errata: «milo»).",
+      "relevantes": ["5ce5e86d0d26854a"]
+    }
+  }
+}

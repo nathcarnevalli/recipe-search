@@ -1,0 +1,49 @@
+{
+  "05ea0458feb365ce": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano,forno"
+  },
+  "5f017c0d248adc3d": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno",
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano,forno,rapida"
+  },
+  "4d4832509b7fe168": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "rapida",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano,sen_lactose,rapida"
+  },
+  "a9d3893aa7f73a4a": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "rapida",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano,sen_lactose,rapida"
+  },
+  "9bf2fbeb8d0596a8": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  }
+}

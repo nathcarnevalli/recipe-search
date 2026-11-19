@@ -15,8 +15,65 @@ header, main {
 
 h1 { font-size: 1.6rem; }
 
-form { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-input[type="search"] { flex: 1; min-width: 200px; }
+form { display: flex; flex-direction: column; gap: 0.5rem; }
+.search-row, .filter-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+/* Campo de búsqueda más corto: no ocupa todo el ancho */
+.search-row input[type="search"] { flex: 0 1 480px; min-width: 0; }
+/* Controles del formulario: mismo borde, radio y color que los chips */
+:root {
+  --morado: #6a4c93;
+  --morado-oscuro: #553a7a;
+  --borde: #cfc6dd;
+}
+
+.search-row input[type="search"] {
+  padding: 0.45rem 0.8rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* Desplegables compactos: solo el ancho de su texto, con flecha propia */
+.filter-row select {
+  flex: 0 0 auto;
+  appearance: none;
+  padding: 0.35rem 1.9rem 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  color: #4a3570;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236a4c93' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 0.7rem center;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.search-row button {
+  flex: 0 0 auto;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--morado);
+  border: 1px solid var(--morado);
+  border-radius: 8px;
+  transition: background 0.15s;
+}
+
+.filter-row select:hover, .search-row input[type="search"]:hover { border-color: var(--morado); }
+.search-row button:hover { background: var(--morado-oscuro); }
+.search-row button:active { transform: translateY(1px); }
+
+.filter-row select:focus-visible,
+.search-row input[type="search"]:focus-visible,
+.search-row button:focus-visible {
+  outline: none;
+  border-color: var(--morado);
+  box-shadow: 0 0 0 3px rgba(106, 76, 147, 0.25);
+}
+
+/* Desplegable con un filtro elegido: se resalta como un chip activo */
+.filter-row select.activo { background-color: #ece6f5; border-color: var(--morado); font-weight: 600; }
 input, select, button { padding: 0.6rem; font-size: 1rem; }
 button { cursor: pointer; }
 
@@ -37,11 +94,82 @@ button { cursor: pointer; }
 .card .meta { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
 .card ul { margin: 0.5rem 0; padding-left: 1.2rem; }
 
-fieldset#etiquetas { border: none; padding: 0; margin: 0; display: flex; gap: 0.8rem; flex-wrap: wrap; width: 100%; }
-fieldset#etiquetas legend { font-size: 0.85rem; color: #555; margin-bottom: 0.2rem; }
-fieldset#etiquetas label { font-size: 0.9rem; }
+/* Etiquetas como chips: la casilla queda oculta pero sigue siendo accesible con teclado */
+fieldset#etiquetas {
+  border: none; padding: 0; margin: 0.2rem 0 0;
+  display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; width: 100%;
+}
+fieldset#etiquetas legend {
+  float: left; margin-right: 0.3rem;
+  font-size: 0.85rem; color: #555;
+}
+.chip { position: relative; cursor: pointer; }
+.chip input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.chip span {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #cfc6dd;
+  border-radius: 999px;
+  background: #fff;
+  color: #4a3570;
+  font-size: 0.85rem;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.chip:hover span { border-color: #6a4c93; }
+.chip input:checked + span { background: #6a4c93; border-color: #6a4c93; color: #fff; }
+.chip input:checked + span::before { content: "✓ "; }
+.chip input:focus-visible + span { outline: 2px solid #6a4c93; outline-offset: 2px; }
 .hint { width: 100%; margin: 0; font-size: 0.8rem; color: #777; }
 
 .llm-tags { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
 .llm-tags .badge { font-size: 0.7rem; font-weight: bold; background: #6a4c93; color: #fff; padding: 0.1rem 0.4rem; border-radius: 4px; }
 .llm-tags .tag { font-size: 0.75rem; background: #ece6f5; color: #4a3570; padding: 0.1rem 0.5rem; border-radius: 10px; }
+
+.nivel { font-size: 0.75rem; padding: 0.1rem 0.5rem; border-radius: 10px; cursor: help; }
+.nivel-facil { background: #e3f2e1; color: #2e6b2a; }
+.nivel-media { background: #fff3d6; color: #7a5a00; }
+.nivel-dificil { background: #fbe3e3; color: #8a2424; }
+
+/* Panel destacado sobre el primer resultado, al estilo de un fragmento destacado */
+#dicas {
+  background: #fff;
+  border: 1px solid #e2ddd0;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+#dicas p { margin: 0.35rem 0; }
+.panel-eyebrow { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #777; }
+.panel-titulo { font-size: 1.15rem; font-weight: bold; }
+.panel-titulo a { color: inherit; text-decoration: none; }
+.panel-titulo a:hover { text-decoration: underline; }
+.panel-nivel { display: flex; align-items: center; gap: 0.6rem; margin: 0.6rem 0; }
+.medidor { display: flex; gap: 3px; }
+.medidor i { width: 26px; height: 8px; border-radius: 4px; background: #e6e3da; }
+.medidor.facil i:nth-child(-n+1) { background: #3f8f3a; }
+.medidor.media i:nth-child(-n+2) { background: #d9a400; }
+.medidor.dificil i { background: #c0392b; }
+.panel-datos { display: flex; gap: 1.2rem; flex-wrap: wrap; font-size: 0.9rem; color: #444; }
+.panel-datos strong { display: block; font-size: 1.05rem; color: #222; }
+.panel-alternativa { border-top: 1px solid #eee; padding-top: 0.5rem; margin-top: 0.7rem !important; font-size: 0.9rem; }
+
+/* Que display: flex no anule el atributo hidden */
+[hidden] { display: none !important; }
+
+/* Botón para cargar más resultados */
+#more {
+  display: block;
+  margin: 0 auto 2rem;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--morado);
+  background: #fff;
+  border: 1px solid var(--morado);
+  border-radius: 999px;
+  transition: background 0.15s, color 0.15s;
+}
+#more:hover:not(:disabled) { background: var(--morado); color: #fff; }
+#more:disabled { opacity: 0.6; cursor: wait; }
+#more:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(106, 76, 147, 0.25); }

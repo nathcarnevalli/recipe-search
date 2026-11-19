@@ -14,7 +14,7 @@ Recetas tradicionales gallegas, escritas en gallego. Hoy están repartidas entre
 
 | Fuente | Tipo | Semilla | Recetas |
 |--------|------|---------|---------|
-| [kukinhas.com](https://kukinhas.com) | Blog de una autora, textos largos | https://kukinhas.com/receitas-tradicionais/ 
+| [kukinhas.com](https://kukinhas.com) | Blog de una autora, textos largos | https://kukinhas.com/receitas-tradicionais/ | 201 |
 | [receitario.gal](https://receitario.gal) | Wiki colaborativo, recetas breves | https://receitario.gal/category/receitas-tradicionais/ | 94 |
 
 **Esquema común** (el mismo en las dos fuentes):
@@ -136,6 +136,8 @@ docker compose run --rm indexer python -m llm.irlab_client
 ```
 
 Si existe `data/enriquecido.json`, el indexador añade a cada receta los campos `categoria` y `etiquetas`. Si no existe, indexa las recetas sin ellos.
+
+La web permite filtrar por fuente, dificultad, categoría y etiquetas; la dificultad (fácil, media o difícil) se calcula sin LLM en [`indexer/dificultade.py`](indexer/dificultade.py) a partir del número de ingredientes, los tiempos y las técnicas de la preparación.
 
 ---
 
