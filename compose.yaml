@@ -1,0 +1,58 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.19.3
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.security.enrollment.enabled=false
+      - xpack.security.http.ssl.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "127.0.0.1:9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -qv '\"status\":\"red\"'"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  # Indexa data/ al arrancar y termina
+  indexer:
+    build: .
+    image: recipes-search:latest
+    command: ["python", "main.py", "--sin-crawl"]
+    environment:
+      - ES_URL=http://elasticsearch:9200
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    restart: "no"
+
+  # Arranca cuando la indexación ha terminado
+  web:
+    build: .
+    image: recipes-search:latest
+    environment:
+      - ES_URL=http://elasticsearch:9200
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    # .env opcional: solo hace falta para el LLM
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      indexer:
+        condition: service_completed_successfully
+
+volumes:
+  esdata:
