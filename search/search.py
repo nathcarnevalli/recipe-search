@@ -4,7 +4,7 @@ from elasticsearch import Elasticsearch
 # Conexión con Elasticsearch
 client = Elasticsearch(os.getenv("ELASTICSEARCH_URL", "http://localhost:9200"))
 
-INDEX_NAME = "receitas_galegas"
+INDEX_NAME = os.getenv("INDEX_NAME", "receitas_galegas")
 
 
 def search_recipes(query, size=10, **filtros):

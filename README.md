@@ -14,7 +14,7 @@ Recetas tradicionales gallegas, escritas en gallego. Hoy están repartidas entre
 
 | Fuente | Tipo | Semilla | Recetas |
 |--------|------|---------|---------|
-| [kukinhas.com](https://kukinhas.com) | Blog de una autora, textos largos | https://kukinhas.com/receitas-tradicionais/ | 201 |
+| [kukinhas.com](https://kukinhas.com) | Blog de una autora, textos largos | https://kukinhas.com/receitas-z-recipes/ | 201 |
 | [receitario.gal](https://receitario.gal) | Wiki colaborativo, recetas breves | https://receitario.gal/category/receitas-tradicionais/ | 94 |
 
 **Esquema común** (el mismo en las dos fuentes):
@@ -79,53 +79,90 @@ recipes-search/
 
 ## Instalación
 
-Todos los comandos se ejecutan desde la **raíz del repositorio** (la carpeta `recipes-search`).
+Todos los comandos se ejecutan desde la **raíz del repositorio**.
 
-### Requisitos
+### Requisitos y versiones
 
-Solo hace falta **Docker** (con Docker Compose). No hay que instalar Python, Elasticsearch ni dependencias en el sistema.
+Solo hay que instalar **Docker**; Python, Elasticsearch y las dependencias van dentro de los contenedores.
+
+| Componente | Versión |
+|---|---|
+| Docker Engine | 24 o superior (probado con 29.9.3) |
+| Docker Compose | 2.24 o superior (probado con 5.7.0) |
+| Python (imagen `python:3.11-slim`) | 3.11 |
+| Elasticsearch (imagen oficial) | 8.19.3 |
+| Dependencias de Python | fijadas en [`requirements.txt`](requirements.txt) (Scrapy 2.19.0, elasticsearch 8.19.3, FastAPI 0.162.0, Uvicorn 0.54.0, openai 3.49.0) |
+
+### Pasos
+
+**1. Obtener el código e instalar las dependencias** (construye la imagen con `requirements.txt`):
 
 ```bash
-git clone https://github.com/nathcarnevalli/recipes-search.git
-cd recipes-search
-docker compose up -d --build
+git clone https://github.com/nathcarnevalli/recipe-search.git
+cd recipe-search
+docker compose build
 ```
 
-Abre http://localhost:8000.
+**2. Configurar** (opcional; el buscador funciona sin `.env`):
 
-`docker compose up` arranca tres servicios definidos en [`compose.yaml`](compose.yaml):
+```bash
+cp .env.example .env    # y editar los valores (ver «Configuración»)
+```
+
+**3. Obtener los datos.** En el repositorio solo va una muestra de 65 recetas en `data/muestra/`. Para tener las 295 recetas completas hay que rastrear las dos fuentes (unos 7 minutos, por el retardo entre peticiones):
+
+```bash
+docker compose up -d elasticsearch
+docker compose run --rm indexer python main.py    # rastrea, guarda data/*.json e indexa
+```
+
+Sin este paso, el sistema indexa la muestra.
+
+**4. Indexar.** El paso 3 ya indexa. Para volver a indexar los datos que hay en `data/` (o la muestra), sin rastrear:
+
+```bash
+docker compose run --rm indexer python main.py --sin-crawl
+```
+
+**5. Arrancar la aplicación:**
+
+```bash
+docker compose up -d
+```
+
+Abre http://localhost:8000. `docker compose up` arranca tres servicios definidos en [`compose.yaml`](compose.yaml):
 
 | Servicio | Qué hace |
 |---|---|
 | `elasticsearch` | Elasticsearch 8.19.3, un nodo, sin seguridad, solo en `localhost:9200`. Los datos se guardan en un volumen. |
-| `indexer` | Indexa las recetas de `data/` y termina. |
+| `indexer` | Indexa las recetas de `data/` (o la muestra) y termina. |
 | `web` | Backend FastAPI + interfaz en `localhost:8000`. Arranca cuando la indexación ha terminado. |
 
-La primera vez tarda unos minutos (descarga de imágenes e instalación de dependencias). Después:
-
 ```bash
-docker compose up -d      # arrancar
 docker compose stop       # parar
 docker compose logs web   # ver mensajes
 ```
 
-Los datos ya vienen en `data/kukinhas.json` y `data/receitario.json`, así que **no hace falta rastrear**. Si se quiere rastrear de nuevo (unos 7 minutos por el retardo entre peticiones de receitario):
+### Configuración
 
-```bash
-docker compose run --rm indexer python main.py
-```
+Todo se cambia con variables de entorno en `.env`, sin tocar el código:
+
+| Variable | Por defecto | Para qué |
+|---|---|---|
+| `INDEX_NAME` | `receitas_galegas` | Nombre del índice de Elasticsearch |
+| `ELASTICSEARCH_URL` | `http://localhost:9200` | Host de Elasticsearch al ejecutar los scripts fuera de Docker (dentro de Docker Compose es `http://elasticsearch:9200`) |
+| `IRLAB_API_KEY` | (ninguno) | Token del servidor de LLM de la asignatura |
+| `IRLAB_BASE_URL` | `https://inference.irlab.org/v1` | Dirección del servidor de LLM |
+| `IRLAB_POLL_SECONDS` | `15` | Cada cuántos segundos se consulta el estado de un lote |
+
+El puerto de la web (`8000`) y el de Elasticsearch (`9200`) se cambian en [`compose.yaml`](compose.yaml).
 
 ### Token del LLM
 
-Solo hace falta para usar el LLM; el buscador funciona sin él.
+Solo hace falta para clasificar recetas con el LLM; el buscador funciona sin él.
 
 1. Entra en https://inference.irlab.org/portal/ con la cuenta de la UDC y genera un token.
-2. Copia la plantilla y pega el token:
-
-```bash
-cp .env.example .env
-# edita .env:  IRLAB_API_KEY=sk-...
-```
+2. Ponlo en `.env` como `IRLAB_API_KEY`.
 
 `.env` está en `.gitignore` y `.dockerignore`: el token **nunca** se sube al repositorio ni entra en la imagen de Docker. Generar un token nuevo en el portal invalida el anterior, así que hay que actualizar `.env` cada vez.
 
@@ -135,7 +172,7 @@ Comprobar la conexión (no gasta tokens):
 docker compose run --rm indexer python -m llm.irlab_client
 ```
 
-Si existe `data/enriquecido.json`, el indexador añade a cada receta los campos `categoria` y `etiquetas`. Si no existe, indexa las recetas sin ellos.
+La clasificación ya hecha está en `data/enriquecido.json`, así que no hace falta volver a ejecutar el LLM. El indexador añade a cada receta los campos `categoria` y `etiquetas`.
 
 La web permite filtrar por fuente, dificultad, categoría y etiquetas; la dificultad (fácil, media o difícil) se calcula sin LLM en [`indexer/dificultade.py`](indexer/dificultade.py) a partir del número de ingredientes, los tiempos y las técnicas de la preparación.
 

@@ -7,8 +7,7 @@ from scrapy.crawler import CrawlerProcess
 
 from crawlers.kukinhas_spider import KukinhasSpider
 from crawlers.receitario_spider import ReceitarioSpider
-
-DATA_FILES = ["data/kukinhas.json", "data/receitario.json"]
+from indexer.fuentes import ficheros_de_datos
 
 
 def crawl():
@@ -22,7 +21,7 @@ def crawl():
 
 def check_data():
     # Un rastreo interrumpido deja el JSON vacío o incompleto
-    for path in DATA_FILES:
+    for path in ficheros_de_datos():
         try:
             with open(path, encoding="utf-8") as f:
                 recipes = json.load(f)
@@ -42,7 +41,7 @@ def main():
     parser.add_argument(
         "--sin-crawl",
         action="store_true",
-        help="no rastrear: reindexar los JSON que ya existen en data/",
+        help="no rastrear: indexar los JSON que ya existen en data/ (o la muestra de data/muestra/)",
     )
     args = parser.parse_args()
 

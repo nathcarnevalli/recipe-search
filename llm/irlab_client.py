@@ -8,9 +8,12 @@ from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 from openai import OpenAI
 
+# .env en la raíz: token y configuración opcional del servidor
+load_dotenv(find_dotenv())
+
 # Servidor del IRLab (API compatible con OpenAI, solo por lotes)
-BASE_URL = "https://inference.irlab.org/v1"
-POLL_SECONDS = 15
+BASE_URL = os.getenv("IRLAB_BASE_URL", "https://inference.irlab.org/v1")
+POLL_SECONDS = int(os.getenv("IRLAB_POLL_SECONDS", "15"))
 TERMINAL_STATES = {"completed", "failed", "cancelled", "expired"}
 
 # Salidas en bruto por lote y registro de consumo de tokens

@@ -45,5 +45,2125 @@
     ],
     "valido": true,
     "raw": "repostaria|forno"
+  },
+  "f576ecec36188976": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "06f328350dca4adb": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria|"
+  },
+  "5ce5e86d0d26854a": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "8b363645dcc55f08": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "7007768dca7b373c": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "0715d95821dac98b": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "04970290ecd9f574": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "b0bff21d0b930e85": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno,vexetariano"
+  },
+  "7dab253590309574": {
+    "categoria": "outros",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano"
+  },
+  "bae4c7a54720303f": {
+    "categoria": "ovos",
+    "etiquetas": [
+      "rapida"
+    ],
+    "valido": true,
+    "raw": "ovos|rapida"
+  },
+  "4050bb0e06c57cdc": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno,vexetariano"
+  },
+  "c80af3a2020176e5": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "38c4ea695317f7b2": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "7ffcbdb7bf3095a0": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes"
+  },
+  "ec4b29c76e0ddda1": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa"
+  },
+  "c64f914c55145502": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa"
+  },
+  "d7a40a96d783c6df": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa"
+  },
+  "91c412ccacff5b2b": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa"
+  },
+  "86a2868f8108bc28": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "8cffd152d5d051e0": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano"
+  },
+  "d3b9a9b8659e2ca0": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria"
+  },
+  "5bc097ebc9ff220e": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria"
+  },
+  "b62a6550d7bbc61e": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano,forno"
+  },
+  "52c8acfda6452e41": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "peixe_e_marisco|vexetariano"
+  },
+  "ab740f689765ed06": {
+    "categoria": "carne",
+    "etiquetas": [
+      "picante"
+    ],
+    "valido": true,
+    "raw": "carne|picante"
+  },
+  "35605f3c1702d1c3": {
+    "categoria": "outros",
+    "etiquetas": [
+      "sen_gluten",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano,sen_gluten"
+  },
+  "ce074ecf7e1b2715": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "fbefbc81cdcd7d45": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne"
+  },
+  "985ffc0e7efb5049": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "9214281c30da1d6d": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "7f85a3635b7bae66": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno",
+      "rapida"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno,rapida"
+  },
+  "2abe7aa81c87bd13": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno,vexetariano"
+  },
+  "e8877e46f610ea8c": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "3a5f0b1e5f546ae8": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "f6f4b522749e3c73": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "d577bd375900aaa0": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "709de77c770cd5df": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa| "
+  },
+  "b31e89c2ae1f1918": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "e655bad500b91958": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "3a44785df16bca8b": {
+    "categoria": "ovos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "ovos| "
+  },
+  "cbb8c36f4beb021b": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "3f44bc6853544c4d": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano,sen_lactose"
+  },
+  "3a1ee1e258ed7783": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano"
+  },
+  "eec5c70fb252a508": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "f740f59ff783f027": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "92494e8bf377152e": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "peixe_e_marisco|vexetariano"
+  },
+  "9adc28405d84dc0b": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "c272d47830d6fb93": {
+    "categoria": "ovos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "ovos|vexetariano"
+  },
+  "a6a8902144a4665e": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "6e86cd66a71d7347": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes| "
+  },
+  "5d9437d5c84a4f3a": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco"
+  },
+  "46c36e2ef3bf033a": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne"
+  },
+  "a6d2984a258fcd14": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano,forno"
+  },
+  "4de198021c93aa5e": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "b827433ee2599060": {
+    "categoria": null,
+    "etiquetas": [],
+    "valido": false,
+    "raw": "pasta| "
+  },
+  "15d4345ed8a20495": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "0e78bddf9ac9777a": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa| "
+  },
+  "2f32ffe8ac427288": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "3d12b235082059d9": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "d3ad5d11263db11a": {
+    "categoria": "pan_e_empanadas",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "pan_e_empanadas|vexetariano "
+  },
+  "39958d82eac2d368": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "a0ed29536a675ede": {
+    "categoria": "pan_e_empanadas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "pan_e_empanadas|"
+  },
+  "4d6f01c5564c2806": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano,forno"
+  },
+  "a4aa02919560ce0b": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "2ba4946a2f550fd4": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano "
+  },
+  "6519dd7a04706278": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne|"
+  },
+  "d61589c52d98be31": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "4f2763c4f4af2305": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano "
+  },
+  "750416bafc474553": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "038f9279f0acaae6": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano "
+  },
+  "e83d221fc95efffc": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano "
+  },
+  "04583236fc302536": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa|"
+  },
+  "0691147bfcd44399": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "10c7a0f0b7610c6f": {
+    "categoria": "outros",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano"
+  },
+  "ed4c14a9f4123d9f": {
+    "categoria": "pan_e_empanadas",
+    "etiquetas": [
+      "sen_gluten"
+    ],
+    "valido": true,
+    "raw": "pan_e_empanadas|sen_gluten"
+  },
+  "08b703afbe20cb44": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "5658c4e5c10bf823": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas| "
+  },
+  "a2f80683d55dd289": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco| "
+  },
+  "41032dc9bbb712a1": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco| "
+  },
+  "f024d067eed5f0aa": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno,vexetariano"
+  },
+  "cde6f1b70b953be3": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "6f545af5cfcb6c89": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco|"
+  },
+  "2e63e72db747a59f": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,sen_lactose"
+  },
+  "c88b01445b3c0441": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "5c1481fbda13e832": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "d9722bd4c2ac98e2": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "ca20fd8a47ee7e03": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "19a1fcacea7781c2": {
+    "categoria": "pan_e_empanadas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "pan_e_empanadas| "
+  },
+  "27b9de2e3a1d74b4": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "c4ce8e4dc91464be": {
+    "categoria": "carne",
+    "etiquetas": [
+      "picante"
+    ],
+    "valido": true,
+    "raw": "carne|picante"
+  },
+  "1c98f3643e333504": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "fd7e70cb83de9cde": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa|"
+  },
+  "fdb5e48b77220cf2": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano,forno"
+  },
+  "5207081957c3d94c": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "f9f708f948a976ed": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano,rapida"
+  },
+  "cfb736f578fb9eda": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "repostaria|sen_lactose"
+  },
+  "d2d3735d0f71cd81": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "4b0f473bac8c052c": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "045abaa94415fc54": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "14f4def48f241b95": {
+    "categoria": "pan_e_empanadas",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "pan_e_empanadas|vexetariano"
+  },
+  "9fd6a1cb4d494691": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "be67308856472dd7": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "374487a16bd0cfc4": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "3c69a0b9054d0653": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "26cd1da449f229ad": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "0127c91e4897a270": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "5c0dbcd92edc5582": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano"
+  },
+  "5c518a26d6f37a8e": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes"
+  },
+  "5929f5faf5e14326": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "67fd430a0e3d78c3": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa"
+  },
+  "e44a35fcd2a0b657": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano"
+  },
+  "a806049ae7b9cc7b": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco"
+  },
+  "0d0cf615605423b4": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "2c322f0d652f6d09": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco| "
+  },
+  "415d8f01fa3245f5": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria| "
+  },
+  "4f2150f8f22f5413": {
+    "categoria": "outros",
+    "etiquetas": [
+      "sen_gluten",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano,sen_gluten,sen_lactose "
+  },
+  "b30cbe3fb692a299": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes| "
+  },
+  "96d948ecfee94e43": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "848b92921bab1a73": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco| "
+  },
+  "ed11c3746b6338de": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "36fc3848a1c496ef": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,sen_lactose "
+  },
+  "370b9b078b02b433": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "76b979329333764b": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "d85a01e4e61b66a8": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano"
+  },
+  "e82b70429deff42b": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes"
+  },
+  "0ce7a94f5273a9bd": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "peixe_e_marisco|forno"
+  },
+  "9bf3d2e75e1d542e": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "sobremesa|forno"
+  },
+  "787ec76950466b9b": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "983a98302fddc8cd": {
+    "categoria": "pan_e_empanadas",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "pan_e_empanadas|forno"
+  },
+  "077ff004d334dfeb": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|forno,vexetariano"
+  },
+  "747de9fddcd5c83b": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "e33ce358ffc9e3c2": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "sobremesa|forno"
+  },
+  "a98132b522618180": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco"
+  },
+  "b4d40f52002f7784": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,sen_lactose"
+  },
+  "4a0b9eefca25e96a": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "1f9e2a3a007a43bf": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "f4ec432986148f42": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "954ad937dc615fb8": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|sen_gluten,sen_lactose,vexetariano"
+  },
+  "2f599683c24cb0be": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "c30e6d8a39011088": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "4067b7dab3131dee": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "4d6ba2e735085b90": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria|"
+  },
+  "5c17bb1a72054fa0": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "f591f149face4ab6": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "8e0972f0133b2d7e": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "53fe09cfe92f695e": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "sobremesa|sen_lactose "
+  },
+  "9f065e2cb53d14f1": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes"
+  },
+  "263fe39a95b80b27": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "e7b3d7fa78343e16": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "ad1884dfa2ab3eca": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "0954d2787ca8f258": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "0893cb1c71abefc5": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne"
+  },
+  "583386764caa4bcd": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "20e6c9c379d6db86": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno",
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno,sen_lactose"
+  },
+  "3a0e60ea34cad787": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "92fc4aa6347207d0": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco"
+  },
+  "ac3f586a0bf39570": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco"
+  },
+  "fe8da64900e723be": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "7978aa9fac2a8878": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "039f5a65c6391a8c": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne"
+  },
+  "46b372fb78c6d6ce": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros"
+  },
+  "72d0cf8f7f2e4e06": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne"
+  },
+  "229b9a439eb55f69": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "14e836959d10d917": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "891c401efc0769a3": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "9348eb3d57221f46": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "c2795baf659d889c": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "572bc1dd856b1551": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "f8ef47e3c18823d6": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "bc4de2bdfc9cdd77": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "26a6adb530b1b8e7": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "c6f5e10b91d1b7fc": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria|"
+  },
+  "f38015b35d711fee": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "8e170681de399e6d": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "repostaria|forno"
+  },
+  "82db3dcc7881ca38": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "67dca81fca88a5f4": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,sen_lactose"
+  },
+  "4efe04462ba990a0": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco"
+  },
+  "ffb096b9de8b2753": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano"
+  },
+  "c71904643303e88a": {
+    "categoria": "bebidas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "bebidas"
+  },
+  "411d4114bbb0c4ec": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,rapida"
+  },
+  "632304b093c5b4ae": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria"
+  },
+  "8656a7c0479a32ed": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria"
+  },
+  "c2c3e7ee62ddc7b3": {
+    "categoria": "repostaria",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "repostaria|vexetariano,sen_lactose"
+  },
+  "4ec106acad5b0ac6": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "sobremesa|sen_lactose"
+  },
+  "24852a45a4d1c3b1": {
+    "categoria": "sobremesa",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sobremesa|"
+  },
+  "8a627f67927ec2ef": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria|"
+  },
+  "583b6e5ad9eff686": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "sen_gluten",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,sen_gluten"
+  },
+  "523fbfad80376866": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco|"
+  },
+  "3f8c55fecb3b7df5": {
+    "categoria": "outros",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano"
+  },
+  "a6b9c7b924f75633": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "b38bb7b6684b0ab9": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria|"
+  },
+  "1f830385745c57ee": {
+    "categoria": "outros",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano,rapida"
+  },
+  "ca6a4e5f1a15ebf3": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne|"
+  },
+  "a664829fd174116a": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "d13b03a858f23efb": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes|"
+  },
+  "99d8d7fa497f62a0": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco| "
+  },
+  "1a9874b6469fdc2f": {
+    "categoria": "sobremesa",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sobremesa|vexetariano"
+  },
+  "ced4a136712022e0": {
+    "categoria": "bebidas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "bebidas|"
+  },
+  "45822c3317f1e4f2": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros|"
+  },
+  "fb3377bdcfa890a8": {
+    "categoria": "ovos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "ovos|"
+  },
+  "6abc40556c5c868d": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano"
+  },
+  "629367bdf2b1bcbc": {
+    "categoria": "repostaria",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "repostaria|"
+  },
+  "e78000a19695dd56": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "a0ca759208b7a927": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "8788072c6f5c4217": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "d1c1f33f9e294574": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "71c86e77e8900e1f": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "16274f1e64b7d0b8": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "218d000082e6cecb": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "9212e89a6afbfd63": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "53f944424304841a": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "picante",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano,picante"
+  },
+  "66258d5e50f88675": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "4db7fe54fb19455b": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "722293b4dbc8794a": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "89120888790fd758": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "f9fd48662f3204fd": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "0ae59a9781357b17": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano,sen_lactose"
+  },
+  "db2c02dc68811237": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "85559199ce8bdce6": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "52ca43925be219af": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano,rapida"
+  },
+  "c3c4e8c77e855ed6": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": false,
+    "raw": "sopas_e_caldos|ovos"
+  },
+  "a346302ed917d19e": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": false,
+    "raw": "sopas_e_caldos|ovos"
+  },
+  "f249fbd6209768cc": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "picante",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano,sen_lactose,picante"
+  },
+  "1112006470e0fa1f": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [
+      "rapida"
+    ],
+    "valido": true,
+    "raw": "peixe_e_marisco|rapida"
+  },
+  "793fc035ee8d5f60": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_gluten,sen_lactose"
+  },
+  "bf62ad25c6029ac4": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas"
+  },
+  "b6f64549725edbc3": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas"
+  },
+  "a79fd90e37ac6064": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas"
+  },
+  "138c1c9dffdcc97f": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_gluten,sen_lactose"
+  },
+  "a1c84f38721458bc": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|sen_lactose"
+  },
+  "17e3b43a5edd8126": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas"
+  },
+  "c17c55fd80df7231": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten",
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_gluten,sen_lactose"
+  },
+  "ed4f3460e6ed7fca": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "a97b2c7560df34d2": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "2fc11dadc63afca8": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "960478ef7aa548bb": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "d4cd552e4b828738": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten"
+    ],
+    "valido": false,
+    "raw": "salsas_e_conservas|sen_vexetariano,sen_gluten"
+  },
+  "94addcf4442ca52c": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "2bab13d487808c19": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "3cecf62a5215104c": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "peixe_e_marisco| "
+  },
+  "7dff4d3df96d6800": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "aca949e309feb91a": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "76c18cdd092723f0": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten",
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|sen_lactose,sen_gluten "
+  },
+  "404419c43f845c6c": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten",
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|sen_lactose,sen_gluten "
+  },
+  "6f376902a74ba913": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne "
+  },
+  "b65bbca76c1dd3a1": {
+    "categoria": "outros",
+    "etiquetas": [
+      "rapida",
+      "sen_gluten",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano,sen_gluten,rapida "
+  },
+  "c268d0f7663a6bcb": {
+    "categoria": "pan_e_empanadas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "pan_e_empanadas "
+  },
+  "4ff75a8015807ee5": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne "
+  },
+  "ee3b8a5dd31124df": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne "
+  },
+  "2b5e3a95c6f22769": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros "
+  },
+  "9de95b426dee1e77": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros "
+  },
+  "8fb31aec33968e1f": {
+    "categoria": "outros",
+    "etiquetas": [
+      "rapida",
+      "sen_gluten",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "outros|vexetariano,sen_gluten,rapida"
+  },
+  "3217edc2ed8f28eb": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas"
+  },
+  "f9bc82f9dc0139fe": {
+    "categoria": "bebidas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "bebidas"
+  },
+  "1fb7e554affc6439": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano"
+  },
+  "b9ba89db0fbd3458": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas"
+  },
+  "245fda202e1a9c52": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne"
+  },
+  "78a1c5e031db093b": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "2e155c8d1e2781d4": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "45065f16d82856f0": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "87ef4cdb3330dddd": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano,sen_lactose"
+  },
+  "b57964f3683cdaeb": {
+    "categoria": "outros",
+    "etiquetas": [
+      "rapida"
+    ],
+    "valido": true,
+    "raw": "outros|rapida"
+  },
+  "3c14f93b72b85199": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "61dfcfd5a488bccd": {
+    "categoria": "peixe_e_marisco",
+    "etiquetas": [
+      "forno"
+    ],
+    "valido": true,
+    "raw": "peixe_e_marisco|forno "
+  },
+  "21556ae2ade25f94": {
+    "categoria": "outros",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "outros| "
+  },
+  "740a0f886ebbc8ea": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "b3f85bb582f3354b": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes| "
+  },
+  "f0bae31722836e04": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "verduras_e_legumes| "
+  },
+  "f17591b54dac9ff3": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos| "
+  },
+  "4b88f8c84938f420": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "b5486d2a75de37ef": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne| "
+  },
+  "569f2d1be3bd467f": {
+    "categoria": "carne",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "carne|"
+  },
+  "f749a848888cdcdf": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "salsas_e_conservas"
+  },
+  "d56968a3344b5997": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|vexetariano,sen_lactose"
+  },
+  "d3f69b6900b0a9b8": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "e3c2b6393f652447": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "098188044f889f5f": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "a82d97dfebf3e440": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "rapida",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano,rapida"
+  },
+  "b2aab22e6ee5e241": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "c0e292362f62f5ff": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "e262823bf11e8afb": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "rapida"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|rapida"
+  },
+  "7ed3acf287afe29e": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "4ff742e97e58e057": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "0254d89671a2dd2a": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "7a9970a517eee0eb": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "246f1202dcc2eadb": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "sopas_e_caldos|vexetariano"
+  },
+  "43f503eac2b09bf5": {
+    "categoria": "sopas_e_caldos",
+    "etiquetas": [],
+    "valido": true,
+    "raw": "sopas_e_caldos"
+  },
+  "77923317737d80ae": {
+    "categoria": "verduras_e_legumes",
+    "etiquetas": [
+      "sen_lactose",
+      "vexetariano"
+    ],
+    "valido": true,
+    "raw": "verduras_e_legumes|vexetariano,sen_lactose"
+  },
+  "de8d7bb9600f0167": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_gluten"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|sen_gluten"
+  },
+  "58d9040a1a5e88ee": {
+    "categoria": "salsas_e_conservas",
+    "etiquetas": [
+      "sen_lactose"
+    ],
+    "valido": true,
+    "raw": "salsas_e_conservas|sen_lactose"
   }
 }

@@ -23,8 +23,8 @@ services:
     image: recipes-search:latest
     command: ["python", "main.py", "--sin-crawl"]
     environment:
-      - ES_URL=http://elasticsearch:9200
       - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - INDEX_NAME=${INDEX_NAME:-receitas_galegas}
     env_file:
       - path: .env
         required: false
@@ -44,8 +44,8 @@ services:
     build: .
     image: recipes-search:latest
     environment:
-      - ES_URL=http://elasticsearch:9200
       - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - INDEX_NAME=${INDEX_NAME:-receitas_galegas}
     # .env opcional: solo hace falta para el LLM
     env_file:
       - path: .env

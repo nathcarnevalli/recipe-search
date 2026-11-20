@@ -36,3 +36,9 @@ Thumbs.db
 
 # LLM: salidas en bruto de cada lote
 llm/runs/
+
+# Datos completos del rastreo: se generan con `python main.py`
+# (en el repositorio solo va la muestra de data/muestra/)
+data/kukinhas.json
+data/receitario.json
+data/muestras/

@@ -5,18 +5,19 @@ from collections import Counter
 from elasticsearch import Elasticsearch
 
 from dificultade import calcular as calcular_dificultade
+from vexetariano import corrixir_etiquetas
+from fuentes import ficheros_de_datos
 
+# Configuración por variables de entorno (ver README)
 es_url = os.getenv("ELASTICSEARCH_URL", "http://localhost:9200")
 client = Elasticsearch(es_url)
-
-#client = Elasticsearch(os.getenv("ELASTICSEARCH_URL", "http://localhost:9200"))
-print("--> A ligar ao Elasticsearch em:", es_url)
-index_name = "receitas_galegas"
+index_name = os.getenv("INDEX_NAME", "receitas_galegas")
+print(f"--> Elasticsearch: {es_url} · índice: {index_name}")
 
 # Leer las recetas de los archivos JSON: una lista de recetas por fuente
 recipes = []
 
-for path in ["data/kukinhas.json", "data/receitario.json"]:
+for path in ficheros_de_datos():
     with open(path, encoding="utf-8") as f:
         recipes.extend(json.load(f))
 
@@ -32,10 +33,15 @@ if os.path.exists(enriched_path):
 else:
     print(f"--> Aviso: no existe {enriched_path}; los filtros de categoría y etiquetas no darán resultados.")
 
+corregidas = []
 for recipe in recipes:
     extra = enriched.get(recipe["recipe_id"], {})
     recipe["categoria"] = extra.get("categoria")
-    recipe["etiquetas"] = extra.get("etiquetas", [])
+    recipe["etiquetas"] = list(extra.get("etiquetas", []))
+    # Quitar «vexetariano» si los ingredientes nombran carne o pescado (indexer/vexetariano.py)
+    termo = corrixir_etiquetas(recipe)
+    if termo:
+        corregidas.append((recipe["title"], termo))
     # Dificultad por reglas (indexer/dificultade.py): no gasta tokens
     recipe.update(calcular_dificultade(recipe))
 
@@ -102,3 +108,6 @@ print("Recetas leídas:", len(recipes))
 print("Documentos indexados:", client.count(index=index_name)["count"])
 print("Recetas con categoría del LLM:", sum(1 for r in recipes if r["categoria"]))
 print("Dificultad (por reglas):", dict(Counter(r["dificultade"] for r in recipes)))
+print("Etiqueta «vexetariano» del LLM corregida:", len(corregidas))
+for title, termo in corregidas:
+    print(f"  {title[:50]} (lleva {termo})")
